@@ -1,0 +1,555 @@
+*{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding:0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    background-color:white ;
+}
+.welcome{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    background-color:white ;
+}
+.welcome img{
+    height:50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: 0;
+}
+.username{
+    flex-grow: 1;
+    padding-left:0;
+    margin: 0;
+}
+.username h3{
+    margin-left: 5%;
+    padding-bottom: 1%;
+    font-family: 'Lato', sans-serif;
+}
+.username h4{
+    margin-left: 5%;
+    padding-bottom: 1%;
+    font-family: 'Open Sans', sans-serif;
+}
+.welcome .fa{
+    font-size: 30px;
+    padding-top: 2%;
+    margin-right: 0;
+}
+.welcome .fa-solid{
+    font-size: 30px;
+    padding-top: 2%;
+    margin-right: 0;
+}
+.container{
+    margin-top: 5%;
+    height: fit-content;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(debit4.avif);
+    background-size: cover;
+    background-position: right;
+    border-radius:30px;
+    color: black;
+}
+.totalbalance{
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+.totalbalance h3{
+    padding-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.totalbalance h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 3%;
+    font-size: 250%;
+}
+.income-expenses{
+    padding: 8%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    padding-right: 5%;
+}
+.income-expenses h3{
+    font-size: 80%;
+}
+.income-expenses h4{
+    font-size: 90%;
+}
+.filler{
+    flex-grow:1;
+}
+.transactions-title{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    margin-right: 0;
+}
+.transactions-title .view-all{
+    flex-grow: 1;
+    
+}
+.view-all{
+    text-align: right;
+    margin-right: 0;
+    margin-left: 0;
+}
+.view-all p{
+    margin-right: 3%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 90%;
+}
+.transactions-title-text{
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Kanit', sans-serif;
+    font-size: 120%;
+    flex-grow: 1;
+}
+.transactions-title-text h4{
+    margin-left: 0;
+}
+.flex-1{
+    display: flex;
+    margin-left:0;
+    align-items: center;
+}
+.flex-1 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin: 0;
+    padding-top: 5%;
+}
+.text1{
+    text-align: left;
+    width: fit-content;
+}
+.text1 h3{
+    padding-top: 5%;
+    font-family: 'Kanit', sans-serif;
+}
+.text1 h4{
+    padding-top: 1%;
+}
+.transactions-flex .text1 .h3{
+    padding-top: 5%;
+}
+.transactions li{
+    background-color:white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    color: black;
+    box-shadow: inset 0px 0px 5px 5px #888888;
+}
+.transactions ul{
+    margin-left: 0;
+    margin-right: 0;
+}
+.transactions-flex img{
+    margin-right: 0;
+    height: 50px;
+    width: 50px;
+    padding-top: 0;
+    
+}
+.flex-1 img{
+    margin-right: 0;
+    height: 80%;
+}
+.expenses-text-parent{
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    width: fit-content;
+    flex-grow: 1;
+}
+.expenses-text{
+    flex-grow: 1;
+}
+.expenses-text h3{
+    padding-top: 0;
+}
+.flex-1 img{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+#float-right{
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 0;
+}
+#float-right h3{
+    padding-top: 0;
+}
+#float-right h4{
+    font-family: 'Raleway', sans-serif;
+}
+.transactions-flex .text1{
+    margin-left: 2%;
+}
+.bottom-bar{
+    display: none;
+}
+
+
+
+/* Page2.html css starts from here */
+
+#fa-display-yes{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left:0
+}
+
+.welcome h1{
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 180%;
+}
+
+#page-2-top{
+    margin-top: 5%;
+}
+.selector{
+    display: flex;
+    justify-content:center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #c6c6c6;
+    border-radius: 20px;
+}
+.common-selector{
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    flex-grow: 1;
+}
+.common-selector a{
+    text-decoration: solid;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+.expenses-selector a h3{
+    background-color: white;
+}
+.common-selector a h3{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 100%;
+    margin-top: 2%;
+    margin-bottom:2%;
+    border-radius: 20px;
+    margin-left:2%;
+    margin-right:2%;
+}
+.graph{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url(graph1.png);
+    height:50vh;
+    border-radius: 30px;
+    background-size:cover;
+    background-position: left;
+    margin-bottom:5%;
+}
+
+
+/* page3.html starts from here */
+.close{
+    display: flex;
+    margin: 5% 0% 5% 0%;;
+}
+.filler-sub{
+    flex-grow: 1;
+}
+#page-3-top h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+#page-3-selector a h3{
+    padding: 2% 0% 2% 0%;
+}
+#input-page-3{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0% 10% 0%;
+}
+#input-page-3 input{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    border: none;
+    background-color: white;
+    box-shadow: inset 0px 0px 3px 3px black;
+    border-radius: 40px;
+    padding: 3% 0% 3% 0%;
+    float: center;
+    width: 70%;
+}
+#input-page-3 input:focus{
+    outline: none;
+}
+#input-page-3-2{ 
+    margin: 3% 0% 3% 0%;
+    flex-grow: 1;
+}
+#input-page-3-2 input{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: none;
+    padding: 1% 0% 1% 0%;
+    float: center;
+    background-color: unset;
+    margin-left: 5%;
+    flex-grow: 1;
+}
+#input-page-3-2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#input-page-3 input:focus{
+    outline: none;
+}
+#input-page-3-2 input:focus{
+    outline: none;
+}
+.fa-list,.fa-regular{
+    padding-left: 5%;
+    margin-right: 0;
+    
+}
+#input-page-3-2 .fa-solid{
+    font-size:120%;
+    color: black;
+}
+#input-page-3-2 .fa-regular{
+    font-size:120%;
+    color: black;
+}
+.input-expenses{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: inset 0px 0px 3px 3px black;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
+    flex-wrap: 1;
+}
+.bottom-bar-page3{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    z-index: 9;
+    bottom: 0%;
+    margin: auto;
+    right: 0%;
+    left: 0%;
+    width: 80%;
+}
+.save-button{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    height: fit-content;
+    margin-left: 0;
+    margin-right: 0;
+}
+#text-save-button{
+    text-align: center;
+    font-size: 100%;
+    flex-grow: 1;
+    color: white;
+    padding:4% 10% 4% 10%;
+    text-decoration:none;
+    background-color: black;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media(max-width: 700px){
+    *{
+        margin-left: 0%;
+        margin-right:0%;
+    }
+    .main{
+        margin-left:5%;
+        margin-right: 5%;
+    }
+    body{
+        background-color: rgb(219, 219, 219);
+    }
+    .container{
+        margin-right: unset;
+        margin-left: 0;
+    }
+    .welcome{
+        position: unset;
+        background-color: unset;
+    }
+    .welcome .fa{
+        margin-right: 0;
+        padding-left: 5%;
+    }
+    .welcome .fa-solid{
+        display: none;
+    }
+    .flex-1 img{
+        margin-right: 5%;
+    }
+    .text1{
+        font-size: 80%;
+    }
+    .welcome{
+        margin-left: 0;
+    }
+    .transactions{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .transactions li{
+        background-color: white;
+        color: black;
+        box-shadow: unset;
+    }
+    #float-right{
+        padding-right: 2%;
+    }
+    .bottom-bar{
+        width: 100%;
+        margin-left: 0;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 3%;
+        padding-right: 3%;
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        border-radius: 40px 40px 0px 0px;
+        position: fixed;
+        z-index: 9;
+        bottom: 0;
+        
+    }
+     .fa-plus{
+         position: absolute;
+         bottom: 50%;
+        color: white;
+        background-color: black;
+        box-shadow: inset 0px 0px 3px 3px white;
+        font-size: 200%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+        border-radius: 100%;
+    }
+    .filler{
+        flex-grow: 1;
+    }
+    .fa-house,.fa-chart-simple{
+        font-size: 180%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        margin-right: 0;
+        color: black;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+   
+    .filler-main{
+        height: 100%;
+    }
+    .empty-space{
+        height: 10vh;
+    }
+    /* page2.html css starts from here */
+    #fa-display-yes{
+        display: unset;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        margin-left:0
+    }
+    .common-selector a h3{
+        margin-top: 2%;
+        margin-bottom:2%;
+        margin-left:2%;
+        margin-right:2%;
+    }
+    .graph{
+        height: 40vh;
+    }
+
+    /* page3.html starts from here */
+
+    #input-page-3 input{
+        width: 80%;
+        box-shadow: inset 0px 0px 2px 2px rgb(135, 135, 135);
+    }
+
+    #page-3-top h1{
+        font-size: 130%;
+    }
+    .bottom-bar-page3{
+        z-index: 9;
+        bottom: 10%;
+        width: 90%;
+        position: fixed;
+        margin: auto;        
+        right: 0%;
+
+    }
+    #text-save-button{
+        padding:5% 10% 5% 10%;
+    }
+    .input-expenses{
+        box-shadow: unset;
+    }
+}
+

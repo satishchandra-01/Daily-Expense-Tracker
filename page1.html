@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Gentium+Plus:wght@400;700&family=Libre+Caslon+Display&family=Montserrat:wght@500&family=Nanum+Gothic:wght@700&family=Nunito+Sans&family=Nunito:wght@300&family=Open+Sans&family=Oxygen:wght@300&family=Plus+Jakarta+Sans:ital,wght@0,300;1,500&family=Quicksand:wght@300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Gentium+Plus:wght@400;700&family=Lato:wght@700&family=Libre+Caslon+Display&family=Montserrat:wght@500&family=Nanum+Gothic:wght@700&family=Nunito+Sans&family=Nunito:wght@300&family=Open+Sans&family=Oxygen:wght@300&family=Plus+Jakarta+Sans:ital,wght@0,300;1,500&family=Quicksand:wght@300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Gentium+Plus:wght@400;700&family=Lato:wght@700&family=Libre+Caslon+Display&family=Montserrat:wght@500&family=Nanum+Gothic:wght@700&family=Nunito+Sans&family=Nunito:wght@300&family=Open+Sans&family=Oxygen:wght@300&family=Plus+Jakarta+Sans:ital,wght@0,300;1,500&family=Poppins:wght@200;300&family=Quicksand:wght@300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Gentium+Plus:wght@400;700&family=Lato:wght@700&family=Libre+Caslon+Display&family=Montserrat:wght@500&family=Nanum+Gothic:wght@700&family=Nunito+Sans&family=Nunito:wght@300&family=Open+Sans&family=Oxygen:wght@300&family=Plus+Jakarta+Sans:ital,wght@0,300;1,500&family=Poppins:wght@200;300;400&family=Quicksand:wght@300&family=Roboto+Slab:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Gentium+Plus:wght@400;700&family=Josefin+Sans:wght@300&family=Lato:wght@700&family=Libre+Caslon+Display&family=Montserrat:wght@500&family=Nanum+Gothic:wght@700&family=Nunito+Sans&family=Nunito:wght@300&family=Open+Sans&family=Oxygen:wght@300&family=Plus+Jakarta+Sans:ital,wght@0,300;1,500&family=Poppins:wght@200;300;400&family=Quicksand:wght@300&family=Roboto+Slab:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Gentium+Plus:wght@400;700&family=Josefin+Sans:wght@300&family=Kanit:ital,wght@0,300;0,400;1,300&family=Lato:wght@700&family=Libre+Caslon+Display&family=Montserrat:wght@500&family=Nanum+Gothic:wght@700&family=Nunito+Sans&family=Nunito:wght@300&family=Open+Sans&family=Oxygen:wght@300&family=Plus+Jakarta+Sans:ital,wght@0,300;1,500&family=Poppins:wght@200;300;400&family=Quicksand:wght@300&family=Roboto+Slab:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Gentium+Plus:wght@400;700&family=Josefin+Sans:wght@300&family=Kanit:ital,wght@0,300;0,400;1,300&family=Lato:wght@700&family=Libre+Caslon+Display&family=Montserrat:wght@500&family=Nanum+Gothic:wght@700&family=Nunito+Sans&family=Nunito:wght@300&family=Open+Sans&family=Oxygen:wght@300&family=Plus+Jakarta+Sans:ital,wght@0,300;1,500&family=Poppins:wght@200;300;400&family=Quicksand:wght@300&family=Raleway:wght@300;400&family=Roboto+Slab:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Gentium+Plus:wght@400;700&family=Josefin+Sans:wght@300&family=Kanit:ital,wght@0,300;0,400;1,300&family=Lato:wght@700&family=Libre+Caslon+Display&family=Montserrat:wght@500&family=Nanum+Gothic:wght@700&family=Nunito+Sans&family=Nunito:wght@300;400&family=Open+Sans&family=Oxygen:wght@300&family=Plus+Jakarta+Sans:ital,wght@0,300;1,500&family=Poppins:wght@200;300;400&family=Quicksand:wght@300&family=Raleway:wght@300;400&family=Roboto+Slab:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/91a3de18d6.js" crossorigin="anonymous"></script>
+
+<title>User Profile - Expense Tracker</title>
+</head>
+<body>
+    <div class="main">
+        <div class="welcome">
+            <img src="avatar1.png" id="avatar">
+            <div class="username">
+                <h4>Welcome!!</h4>
+                <h3>Satish</h3>
+            </div>
+            <i class="fa-solid fa-plus" onclick="openPage('page3.html')"></i>
+            <i class="fa-solid fa-chart-simple" onclick="openPage('page2.html')"></i>
+            <i class="fa fa-cog" aria-hidden="true"></i>
+        </div>
+        <div class="container">
+            <div class="totalbalance">
+                <h3>Total balance</h3>
+                <h1>$ 43000.00 </h1>
+            </div>
+            <div class="income-expenses">
+                <div class="income flex-1">
+                    <img src="income1.jpeg" >
+                    <div class="income-text text1">
+                        <h4>Income</h4>
+                        <h3>80000.00</h3>
+                    </div>
+                </div>
+                <div class="expenses flex-1">
+                    <img src="expenses1.jpeg" >
+                    <div class="expenses-text text1">
+                        <h4>Expenses</h4>
+                        <h3>37000.00</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="transactions">
+            <div class="transactions-title">
+                <div class="transactions-title-text">
+                    <h4>Transactions</h4>
+                </div>
+                <div class="view-all">
+                    <p>View all</p>
+                </div>
+            </div>
+            <ul>
+                <li class="flex-1 transactions-flex">
+                    <img src="food6.png" >
+                    <div class="expenses-text-parent">
+                        <div class="expenses-text text1">
+                            <h3>Food</h3>
+                        </div>
+                    </div>
+                    <div class="expenses-text text1" id="float-right">
+                        <h3>- $ 400.00</h3>
+                        <h4>today</h4>
+                    </div>
+                </li>
+                <li class="flex-1 transactions-flex">
+                    <img src="travel1.png" >
+                    <div class="expenses-text-parent">
+                        <div class="expenses-text text1">
+                            <h3>Travel</h3>
+                        </div>
+                    </div>
+                    <div class="expenses-text text1" id="float-right">
+                        <h3>- $ 400.00</h3>
+                        <h4>today</h4>
+                    </div>
+                </li>
+                <li class="flex-1 transactions-flex">
+                    <img src="rent.webp" >
+                    <div class="expenses-text-parent">
+                        <div class="expenses-text text1">
+                            <h3>House Rent</h3>
+                        </div>
+                    </div>
+                    <div class="expenses-text text1" id="float-right">
+                        <h3>- $ 400.00</h3>
+                        <h4>Yesterday</h4>
+                    </div>
+                </li>
+                <li class="flex-1 transactions-flex">
+                    <img src="others1.webp" >
+                    <div class="expenses-text-parent">
+                        <div class="expenses-text text1">
+                            <h3>Others</h3>
+                        </div>
+                    </div>
+                    <div class="expenses-text text1" id="float-right">
+                        <h3>- $ 400.00</h3>
+                        <h4>Yesterday</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="empty-space"></div>
+    <div class="bottom-bar">
+        <i class="fa-solid fa-house" onclick="openPage('page1.html')"></i>        
+        <i class="fa-solid fa-plus" onclick="openPage('page3.html')"></i>
+        <div class="filler"></div>
+        <i class="fa-solid fa-chart-simple" onclick="openPage('page2.html')"></i>
+    </div>
+     <script>
+         function openPage(pageUrl){
+       window.open(pageUrl,"_self");
+     }
+     </script> 
+</body>
+
+</html>
