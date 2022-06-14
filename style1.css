@@ -98,6 +98,7 @@ body{
     justify-content: space-around;
     margin-left: 0;
     margin-right: 0;
+    
 }
 .transactions-title .view-all{
     flex-grow: 1;
@@ -107,8 +108,11 @@ body{
     text-align: right;
     margin-right: 0;
     margin-left: 0;
+    display: flex;
+    align-items: center;
 }
 .view-all p{
+    flex-grow: 1;
     margin-right: 3%;
     font-family: 'Nunito', sans-serif;
     font-weight: bolder;
@@ -274,14 +278,15 @@ body{
     margin-right:2%;
 }
 .graph{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url(graph1.png);
-    height:50vh;
-    border-radius: 30px;
-    background-size:cover;
-    background-position: left;
-    margin-bottom:5%;
+    width: 80%;
+    height: fit-content;
+    margin-bottom: 5%;
 }
-
+.graph img{
+    width: 100%;
+    margin: auto;
+    border-radius: 30px;
+}
 
 /* page3.html starts from here */
 .close{
@@ -523,7 +528,11 @@ body{
         margin-right:2%;
     }
     .graph{
-        height: 40vh;
+        height:fit-content;
+       width: 100%;
+    }
+    .graph img{
+        width: 100%;
     }
 
     /* page3.html starts from here */
